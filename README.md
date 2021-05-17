@@ -12,4 +12,5 @@ How to determine which one of the messages is the real one:
     gpg2 --verify favfood.2.txt.sig 
 ```
 
-one of the --verify commands will say "Good signature", the other one will say "BAD signature".
+one of the --verify commands will say "Good signature", the other one will say "BAD signature". If favfood.1.txt.sig is the good one, then have a look in favfood.1.txt.
+If favfood.2.txt.sig is the good one, then you can trust favfood.2.txts
